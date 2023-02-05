@@ -1,0 +1,24 @@
+v// lcd
+RST		PA7
+DC		PA6 (D = 1, C = 0)
+CE		PA3
+DIN		PA5
+CLK		PA2
+
+// pumps
+...
+
+// sensor
+SCL	PD0
+SDA	PD1
+CSB	3.3V
+VCC	3.3V
+
+// leds
+red	PF1
+green	PF3
+blue	PF2
+
+// pot
+orta bacak PE3 AIN0
+
